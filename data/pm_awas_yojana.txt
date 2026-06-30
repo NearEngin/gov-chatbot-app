@@ -1,0 +1,17 @@
+Scheme Name: Pradhan Mantri Awas Yojana - Gramin (PMAY-G)
+Department: Ministry of Rural Development
+Eligibility Criteria:
+- Housing Status: Homeless families, families living in houses with zero, one, or two rooms with kutcha walls and roof.
+- Income/Category: Low-income families, SC/ST, manual scavengers, freed bonded laborers.
+Benefits:
+- Financial assistance of Rs. 1,20,000 in plains and Rs. 1,30,000 in hilly areas/difficult areas for house construction.
+- Additional Rs. 12,000 assistance for toilet construction under Swachh Bharat Mission.
+- Optional bank loan up to Rs. 70,000 at interest subsidy.
+Required Documents:
+- Aadhaar Card
+- Bank Account details
+- Job Card number (MGNREGA)
+- Swachh Bharat Mission (SBM) registration number
+- Consent to use Aadhaar on behalf of beneficiary
+Last Updated: March 22, 2026
+Status: Active

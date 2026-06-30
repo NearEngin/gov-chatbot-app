@@ -1,0 +1,16 @@
+Scheme Name: Ayushman Bharat (Pradhan Mantri Jan Arogya Yojana - PM-JAY)
+Department: National Health Authority, Ministry of Health and Family Welfare
+Eligibility Criteria:
+- Income/Category: Identified based on deprivation criteria in the Socio-Economic Caste Census (SECC 2011).
+- Household Type: Families living in one-room houses with kucha walls, landless households deriving major income from manual labor, female-headed households with no adult male member.
+- Exclusions: Families owning motorized vehicles, landlines, or earning > Rs. 10,000/month, or tax paying families.
+Benefits:
+- Health insurance cover of up to Rs. 5 Lakhs per family per year for secondary and tertiary hospitalization.
+- Cashless and paperless treatment at all empaneled public and private hospitals.
+Required Documents:
+- Aadhaar Card / Ration Card
+- PM-JAY Family ID card or letter
+- Income Certificate
+- Caste Certificate (if applicable)
+Last Updated: May 20, 2026
+Status: Active

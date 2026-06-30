@@ -1,0 +1,16 @@
+Scheme Name: NFSA Ration Card (National Food Security Act)
+Department: Department of Food and Public Distribution
+Eligibility Criteria:
+- Income Limit: Varies by state, typically annual income less than Rs. 1,00,000 for Priority Households.
+- Category: Antyodaya Anna Yojana (AAY) for poorest of the poor families, and Priority Households (PHH) determined by state guidelines.
+Benefits:
+- Rice at Rs. 3/kg, Wheat at Rs. 2/kg, and Coarse grains at Rs. 1/kg.
+- Monthly allowance of 35kg food grains per family for AAY, and 5kg food grains per person for PHH.
+Required Documents:
+- Aadhaar Cards of all family members
+- Photograph of the Head of the Family (eldest female)
+- Income Certificate
+- Proof of Address (Electricity bill/Gas card)
+- Bank Account Passbook
+Last Updated: April 10, 2026
+Status: Active

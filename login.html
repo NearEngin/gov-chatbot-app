@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login – Gov Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {display:flex;justify-content:center;align-items:center;height:100vh;background:#030812;color:#fff;font-family:Outfit,system-ui,sans-serif;}
+    .login-card {background:#0c1830;padding:2rem;border-radius:1rem;box-shadow:0 0 20px rgba(20,216,196,0.2);width:320px;}
+    .login-card h2 {margin-bottom:1rem;text-align:center;font-weight:600;}
+    .login-card select, .login-card button {width:100%;padding:0.5rem;margin-top:0.75rem;border:none;border-radius:0.4rem;font-size:0.9rem;}
+    .login-card button {background:#10b8a7;color:#030812;font-weight:600;cursor:pointer;transition:background 0.2s;}
+    .login-card button:hover {background:#0fa79a;}
+  </style>
+</head>
+<body>
+  <div class="login-card">
+    <h2>National Digital Public Infrastructure</h2>
+    <label for="roleSelect" class="block mb-1 text-xs uppercase" style="color:#10b8a7;">Select Access Role</label>
+    <select id="roleSelect">
+      <option value="citizen" selected>Citizen</option>
+      <option value="officer">Officer</option>
+      <option value="admin">Admin</option>
+    </select>
+    <button id="loginBtn">Enter Dashboard</button>
+  </div>
+  <script>
+    document.getElementById('loginBtn').addEventListener('click', () => {
+      const role = document.getElementById('roleSelect').value;
+      localStorage.setItem('role', role);
+      // Redirect to the main app page
+      window.location.href = 'index.html';
+    });
+  </script>
+</body>
+</html>

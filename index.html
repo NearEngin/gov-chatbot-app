@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+    <!-- SEO Best Practices -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NDPI Portal - Secure Government Services AI Dashboard</title>
+    <meta name="description" content="AI-powered Government Services RAG Dashboard for citizens, administrators, and officers under the National Digital Public Infrastructure framework.">
+    <meta name="keywords" content="government services, RAG AI assistant, PM-KISAN, Ayushman Bharat, CSC Locator, eligibility checker">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        navy: {
+                            800: '#081020',
+                            900: '#030812',
+                        },
+                        teal: {
+                            400: '#14D8C4',
+                            500: '#10B8A7',
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                        outfit: ['Outfit', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- Custom Style definitions -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- React & Babel CDNs -->
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body class="h-full bg-[#030812] text-gray-100 antialiased overflow-y-auto grid-bg relative selection:bg-teal-400 selection:text-navy-900">
+    <h1 class="sr-only">National Digital Public Infrastructure - AI Government Services Dashboard</h1>
+    
+    <!-- Container for dynamic React mounting -->
+    <div id="root" class="relative z-10 min-h-screen flex flex-col">
+        <!-- Initial CSS loading state before React boots up -->
+        <div class="flex-1 flex flex-col items-center justify-center space-y-4">
+            <div class="w-10 h-10 rounded-full border-4 border-teal-400 border-t-transparent animate-spin"></div>
+            <p class="text-xs text-teal-400 font-mono tracking-widest uppercase">Initializing Secure Sandbox Environment...</p>
+        </div>
+    </div>
+
+    <!-- Google Maps API -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD-placeholder-key&libraries=places" async defer></script>
+
+    <!-- Load App Script -->
+    <script type="text/babel" src="app.js"></script>
+</body>
+</html>
