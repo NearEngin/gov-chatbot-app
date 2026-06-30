@@ -2,6 +2,9 @@ import os
 import json
 import logging
 import requests
+from dotenv import load_dotenv
+
+load_dotenv()
 import numpy as np
 from flask import Flask, request, jsonify, send_from_directory, Response
 from flask_cors import CORS
@@ -15,7 +18,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 app = Flask(__name__, static_folder='.')
 CORS(app)
 
-OLLAMA_URL = "http://localhost:11434"
+OLLAMA_URL = os.getenv("OLLAMA_URL", "http://localhost:11434")
 INDEX_PATH = "vector_index.json"
 DATA_DIR = "./data"
 
